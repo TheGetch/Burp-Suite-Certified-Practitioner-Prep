@@ -1,8 +1,7 @@
 # Table of Contents
-1. [Initial Access](Methodology.md#^3de769)
-2. [Privilege Escalation](#^61aed4)
-3. [System Access](#^2c973d)
-
+1. [Initial Access](#Initial%20Access)
+2. [Privilege Escalation](#Privilege%20Escalation)
+3. [System Access](#System%20Access)
 
 
 # Initial Access
