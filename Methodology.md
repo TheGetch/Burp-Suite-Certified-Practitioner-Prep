@@ -1,4 +1,13 @@
+# Table of Contents
+1. [Initial Access](Methodology.md#^3de769)
+2. [Privilege Escalation](#^61aed4)
+3. [System Access](#^2c973d)
+
+
+
 # Initial Access
+
+^3de769
 
 **Overall Notes to Remember**
 
@@ -65,7 +74,9 @@
 
 ---
 
-# Privilege Escalation 
+# Privilege Escalation
+
+^61aed4
 
 **Overall Notes to Remember**
 
@@ -122,6 +133,9 @@
 ---
 
 # System Access
+
+^2c973d
+
 **Overall Notes to Remember**
 - Again, check for anything you didn't have access (admin panel the obvious one)
 
