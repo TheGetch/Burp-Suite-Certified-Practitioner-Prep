@@ -1,7 +1,7 @@
 # Table of Contents
-1. [Initial Access](#Initial%20Access)
-2. [Privilege Escalation](#Privilege%20Escalation)
-3. [System Access](#System%20Access)
+1. [Initial Access](#initial-access)
+2. [Privilege Escalation](#privilege-escalation)
+3. [System Access](#system-access)
 
 
 # Initial Access

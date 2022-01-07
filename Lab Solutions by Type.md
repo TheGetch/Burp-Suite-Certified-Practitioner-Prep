@@ -1,3 +1,8 @@
+# Table of Contents
+1. [Initial Access](#initial-access)
+2. [Privilege Escalation](#privilege-escalation)
+3. [System Access](#system-access)
+
 # Initial Access
 
 ## SQL injection
