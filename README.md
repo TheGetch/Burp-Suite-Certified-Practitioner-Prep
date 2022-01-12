@@ -1,7 +1,7 @@
 # Burp-Suite-Certified-Practitioner-Prep
 Materials used in preperation for the BSCP certification from PortSwigger
 
-**All Lab Solutions.md**: Dump of (almost) all lab solutions from the Web Security Academy
+**All Lab Solutions.md**: Dump of (almost) all lab solutions from the Web Security Academy. Didn't include some real basic ones like some of the beginning XSS or SQLi labs.
 
 **Exploit Server.md**: Payloads/code chunks used during labs. Creating this helped save time from typing everything out; I could just copy paste and update the appropriate URLs.
 
