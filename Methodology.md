@@ -6,8 +6,6 @@
 
 # Initial Access
 
-^3de769
-
 **Overall Notes to Remember**
 
 - Check for WebSockets - if there, look at WebSockets lab
@@ -18,6 +16,13 @@
 - scan all found parameters
 - Crawl
 - Discover Content (although they say nothing will be hidden...so might not be be necessary)
+- Check robots.txt
+- Check Host header bypass `Host: localhost`
+    - other host override headers:
+        -   `X-Host`
+        -   `X-Forwarded-Server`
+        -   `X-HTTP-Host-Override`
+         -  `Forwarded`
 
 ## Home page
 
@@ -27,6 +32,8 @@
     - Check for `Vary` in response and if its tied to the `User-Agent` *(more so when trying to identify the victim's browser, but the exam tells you its chrome)*
     - Check if page still caches when including arbitrary parameters: `/?evil='/><script>alert(1)</script>`
     - Try adding two `Host` headers, one being the exploit server (might reflect into something like `/resources/js/tracking.js`) *from: Web cache poisoning via ambiguous requests*
+        -  Try full URL in GET - if supported, then try changing Host header to collab. 
+        - Learning materials also say try an @ sign in the beginning `GET @private-intranet/example HTTP/1.1`
     - See if any interesting cookies are set when hitting the homepage. If so, see *"Web cache poisoning with an unkeyed cookie"*
     - Check for other js files under `/js/` i.e. `/js/geolocate.js`
     - Test if non-existent paths are reflected in the response: `GET /random</p><script>alert(1)</script><p>foo` - This can poison cache even if reflected in your but not executed in original poisoned response. From *"URL normalization"*
@@ -74,8 +81,6 @@
 ---
 
 # Privilege Escalation
-
-^61aed4
 
 **Overall Notes to Remember**
 
@@ -132,8 +137,6 @@
 ---
 
 # System Access
-
-^2c973d
 
 **Overall Notes to Remember**
 - Again, check for anything you didn't have access (admin panel the obvious one)
