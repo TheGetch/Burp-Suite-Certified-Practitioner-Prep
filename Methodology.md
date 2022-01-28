@@ -68,7 +68,7 @@
 
 ## Search Bar
 
-- XSS `searchterm=test%27%0a<body%20onmessage=print()>`
+- XSS `searchterm=test%27%0a<body%20onload=print()>`
 - Scan the `searchterm` (or whatever it may be) parameter.
 
 ## View Blog Post
